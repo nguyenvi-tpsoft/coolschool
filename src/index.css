@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: "Quicksand_Regular";
+    src: url("font/Quicksand-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Quicksand_SemiBold";
+    src: url("font/Quicksand-SemiBold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Quicksand_Bold";
+    font-weight: 700;
+    src: url("font/Quicksand-Bold.ttf") format("truetype");
+  }
+}
