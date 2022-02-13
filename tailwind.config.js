@@ -8,6 +8,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 quicksand: ["Quicksand_Regular"],
+                quicksand_semibold: ["Quicksand_SemiBold"],
                 quicksand_bold: ["Quicksand_Bold"]
             },
         },

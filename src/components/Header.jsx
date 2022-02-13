@@ -58,43 +58,62 @@ function Header() {
               <img src={logo} alt="" />
             </div>
             <div className="col-span-10">
-              <ul className="flex justify-start align-middle py-8">
+              <ul className="flex justify-between items-center py-8">
                 <li className="px-3">
-                  <NavLink className="text-[20px] font-quicksand" to="/">
+                  <NavLink
+                    className="text-[17px]  text-[#f472b6] font-quicksand_semibold"
+                    to="/"
+                  >
                     Trang chủ
                   </NavLink>
                 </li>
                 <li className="px-3">
                   <NavLink
-                    className="text-[20px] font-quicksand_bold"
+                    className="text-[17px]  font-quicksand_semibold"
                     to="gioi-thieu"
                   >
                     Giới thiệu
                   </NavLink>
                 </li>
-                <li className="chuongtrinhhoc-li px-3">
-                  <NavLink className="text-[20px] mx-3" to="tin-tuc">
+                <li className="px-3">
+                  <NavLink
+                    className="text-[17px]  font-quicksand_semibold"
+                    to="tin-tuc"
+                  >
                     Chương trình học <i className="fa fa-caret-down"></i>
                   </NavLink>
                 </li>
-                <li className="chuongtrinhhoc-li px-3">
-                  <NavLink className="text-[20px] mx-3" to="tin-tuc">
+                <li className="px-3">
+                  <NavLink
+                    className="text-[17px]  font-quicksand_semibold"
+                    to="tin-tuc"
+                  >
                     Tuyển sinh
                   </NavLink>
                 </li>
-                <li className="chuongtrinhhoc-li px-3">
-                  <NavLink className="text-[20px] mx-3" to="tin-tuc">
+                <li className="px-3">
+                  <NavLink
+                    className="text-[17px]  font-quicksand_semibold"
+                    to="tin-tuc"
+                  >
                     Tin tức & Sự kiện
                   </NavLink>
                 </li>
-                <li className="chuongtrinhhoc-li px-3">
-                  <NavLink className="text-[20px] mx-3" to="tin-tuc">
+                <li className="px-3">
+                  <NavLink
+                    className="text-[17px]  font-quicksand_semibold"
+                    to="tin-tuc"
+                  >
                     Liên hệ
                   </NavLink>
                 </li>
-                <div className="search-li">
-                  <input type="text" name="" />
-                  <button>
+                <div className="group flex items-center">
+                  <input
+                    className="w-[100px] outline-none hidden group-hover:block transition-all"
+                    type="text"
+                    placeholder="Tìm kiếm tin tức ..."
+                  />
+                  <button className="">
                     <i className="fas fa-search text-[#f472b6]"></i>
                   </button>
                 </div>
