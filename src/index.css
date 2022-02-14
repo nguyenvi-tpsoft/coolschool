@@ -14,4 +14,7 @@
     font-family: "Quicksand_Bold";
     src: url("font/Quicksand-Bold.ttf") format("truetype");
   }
+  body {
+    font-family: "Quicksand_Regular";
+  }
 }
