@@ -76,7 +76,7 @@ function Home() {
                   2000
                 </p>
                 <p className="text-[14px] font-quicksand text-white">
-                  Học sinh toàn quốc
+                  Học sinh toàn quốc1
                 </p>
               </div>
               <div className="col-span-6 bg-[#F6ADCD] flex flex-col items-center justify-center h-[150px] py-5">
