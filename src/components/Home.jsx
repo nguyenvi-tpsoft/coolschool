@@ -76,7 +76,7 @@ function Home() {
                   2000
                 </p>
                 <p className="text-[14px] font-quicksand text-white">
-                  Học sinh toàn quốc1
+                  Học sinh toàn quốc
                 </p>
               </div>
               <div className="col-span-6 bg-[#F6ADCD] flex flex-col items-center justify-center h-[150px] py-5">
@@ -133,6 +133,11 @@ function Home() {
               quốc tế Anh - Nhật có những đặc điểm n...
             </p>
           </div>
+        </div>
+        <div className="py-10 mb-10">
+          <h1 className="relative font-quicksand_bold text-[30px] text-[#fa348c] text-center before:absolute before:content-[''] before:w-[100px] before:h-[2px] before:bg-[#fb66a8] before:left-[50%] before:top-[130%] before:translate-x-[-50%] before:translate-y-[-50%] after:absolute after:content-[''] after:w-[10px] after:h-[10px] after:border-2 after:rounded-[50%] after:bg-white after:left-[50%] after:top-[130%] after:translate-x-[-50%] after:translate-y-[-50%] ">
+            ĐIỀU GÌ KHIẾN PHỤ HUYNH TIN TƯỞNG COOL SCHOOL?
+          </h1>
         </div>
       </div>
     </>
